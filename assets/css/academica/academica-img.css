@@ -1,0 +1,61 @@
+.academica__img--itcg {
+  width: 300px;
+  display: flex;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+.academica__img--alura {
+  width: 220px;
+  display: flex;
+  margin: auto;
+}
+
+.academica__img--helsinki {
+  width: 150px;
+  display: flex;
+  margin: auto;
+}
+
+@media (min-width: 1025px) {
+  .academica__img--itcg {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    padding-top: 5rem;
+  }
+
+  .academica__img--alura {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .academica__img--helsinki {
+    width: 300px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .academica__img--itcg {
+    width: 220px;
+    display: flex;
+    margin: auto;
+    padding-top: 1.3rem;
+  }
+
+  .academica__img--alura {
+    width: 220px;
+    display: flex;
+    margin: auto;
+  }
+
+  .academica__img--helsinki {
+    width: 150px;
+    display: flex;
+    margin: auto;
+  }
+}

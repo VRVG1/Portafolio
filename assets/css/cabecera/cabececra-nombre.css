@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cabecera__nombre {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .cabecera__nombre > .nombre {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .cabecera__nombre {
+    width: 100%;
+  }
+}
+.cabecera__nombre > .nombre {
+  font-weight: 700;
+  font-size: 1.1rem;
+}

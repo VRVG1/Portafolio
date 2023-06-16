@@ -1,0 +1,36 @@
+.skills__card,
+.hobbies__card {
+  background-color: var(--lavander);
+  color: var(--background);
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 190px;
+  height: 180px;
+  margin: 1rem;
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .skills__card,
+  .hobbies__card {
+    background-color: var(--lavander);
+    color: var(--background);
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 160px;
+    height: 120px;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skills__card,
+  .hobbies__card {
+    background-color: var(--lavander);
+    color: var(--background);
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 220px;
+    height: 120px;
+    margin: 1rem;
+  }
+}

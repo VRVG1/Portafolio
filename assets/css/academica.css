@@ -1,0 +1,15 @@
+.academica {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background_alt);
+  color: var(--text);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.academica__titulo {
+  padding-top: 1rem;
+  font-size: 2.3rem;
+}

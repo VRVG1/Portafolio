@@ -1,0 +1,25 @@
+.academica__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 1025px) {
+  .academica__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .academica__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .container__aux {
+    flex-grow: 1;
+    width: 35%;
+  }
+}

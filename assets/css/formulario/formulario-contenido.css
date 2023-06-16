@@ -1,0 +1,4 @@
+.formulario__contenido {
+  display: flex;
+  flex-direction: column;
+}

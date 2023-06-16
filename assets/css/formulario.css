@@ -1,0 +1,10 @@
+.formulario {
+  background-color: var(--background_alt);
+  color: var(--text);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}

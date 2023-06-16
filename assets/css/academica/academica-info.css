@@ -1,0 +1,15 @@
+.academica__info {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+.academica__info > h4 {
+  max-width: 298.8px;
+}
+
+.info__title {
+  font-size: 1.3rem;
+  margin-bottom: -0.5rem;
+}

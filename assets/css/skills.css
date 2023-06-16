@@ -1,0 +1,10 @@
+.skills,
+.hobbies {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text);
+}

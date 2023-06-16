@@ -1,0 +1,7 @@
+.sobreMi {
+  background-color: var(--background_alt);
+  color: var(--text);
+  padding-left: 5vw;
+  padding-right: 2vw;
+  padding-bottom: 1rem;
+}

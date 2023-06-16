@@ -1,0 +1,6 @@
+.piePagina {
+  background-color: var(--background);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--text);
+}

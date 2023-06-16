@@ -1,0 +1,22 @@
+.cabecera {
+  background-color: var(--background);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+  padding-right: 2vw;
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .cabecera {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cabecera {
+    padding-left: 5vw;
+    padding-right: 2vw;
+  }
+}

@@ -1,0 +1,62 @@
+.formulario__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input__box {
+  position: relative;
+  width: 90%;
+}
+.input__box input,
+.input__box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--lavander);
+  background-color: var(--background_alt);
+  outline: none;
+  font-size: 1rem;
+  color: var(--text);
+}
+.input__box span {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1rem;
+  color: var(--lavander);
+  transition: 0.5s;
+}
+
+.input__box input:valid ~ span,
+.input__box input:focus ~ span,
+.input__box textarea:valid ~ span,
+.input__box textarea:focus ~ span {
+  color: white;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65rem;
+  padding: 0 1px;
+  background-color: var(--background_alt);
+  color: var(--sky);
+}
+.input__box input:valid,
+.input__box input:focus,
+.input__box textarea:valid,
+.input__box textarea:focus {
+  border-color: var(--sky);
+}
+.formulario__inputs > .formulario__boton {
+  background-color: var(--lavander);
+  border: none;
+  padding: 1rem;
+  width: 30%;
+  transition: 0.5s;
+}
+.formulario__inputs > .formulario__boton:hover {
+  background-color: var(--sky);
+}
+.formulario__inputs > .formulario__boton:active {
+  background-color: var(--sky);
+  transform: scale(0.9);
+}

@@ -1,0 +1,5 @@
+.cabecera__email {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+}

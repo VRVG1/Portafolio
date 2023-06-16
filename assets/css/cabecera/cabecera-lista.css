@@ -1,0 +1,15 @@
+.cabecera__lista {
+  display: flex;
+  margin: inherit;
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .cabecera__lista {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cabecera__lista {
+    display: none;
+  }
+}

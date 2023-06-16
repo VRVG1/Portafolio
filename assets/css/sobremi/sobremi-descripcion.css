@@ -1,0 +1,10 @@
+.sobreMi__descripcion {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.sobreMi__firma {
+  width: 200px;
+  height: 100px;
+  background-color: var(--Red);
+}
