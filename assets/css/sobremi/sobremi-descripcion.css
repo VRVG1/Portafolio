@@ -1,3 +1,6 @@
+.sobreMi__container {
+  padding-right: 20%;
+}
 .sobreMi__descripcion {
   font-size: 1.1rem;
   font-weight: 300;
@@ -7,4 +10,16 @@
   width: 200px;
   height: 100px;
   background-color: var(--Red);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sobreMi__container {
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .sobreMi__container {
+    padding-right: 0rem;
+  }
 }

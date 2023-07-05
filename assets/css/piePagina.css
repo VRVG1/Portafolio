@@ -4,3 +4,18 @@
   padding-bottom: 1rem;
   color: var(--text);
 }
+
+.piePagina__lista {
+  list-style: none;
+}
+
+.piePagina__items {
+  margin-bottom: 0.5rem;
+}
+.piePagina__item {
+  color: var(--lavander);
+}
+
+.piePagina__item:hover {
+  color: var(--sky);
+}

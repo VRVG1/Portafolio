@@ -52,6 +52,7 @@
   border: 1px solid var(--lavander);
   padding: 1rem;
   transition: 0.5s;
+  color: var(--background);
 }
 .info__botones > .botones__demo:hover {
   background-color: var(--sky);
